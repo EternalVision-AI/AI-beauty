@@ -17,16 +17,16 @@ const routes = [
     component: Looks, 
     meta: { icon: "looks", title: "Lashes" } 
   },
-  // {
-  //   path: "/presets",
-  //   component: Presets,
-  //   meta: { icon: "presets", title: "Presets" },
-  // },
-  // {
-  //   path: "/retouch",
-  //   component: Retouch,
-  //   meta: { icon: "retouch", title: "Retouch" },
-  // },
+  {
+    path: "/presets",
+    component: Presets,
+    meta: { icon: "presets", title: "Presets" },
+  },
+  {
+    path: "/retouch",
+    component: Retouch,
+    meta: { icon: "retouch", title: "Retouch" },
+  },
   {
     path: "/eyes",
     component: Eyes,
@@ -47,17 +47,17 @@ const routes = [
     component: Hair,
     meta: { icon: "hair", title: "Hair" },
   },
-  { 
-    path: "/hairstyle", 
-    component: Hairstyle, 
-    meta: { icon: "hair", title: "Hair Style" } 
-  },
-  // {
-  //   path: "/background",
-  //   component: Background,
-  //   meta: { icon: "background", title: "Background" },
+  // { 
+  //   path: "/hairstyle", 
+  //   component: Hairstyle, 
+  //   meta: { icon: "hair", title: "Hair Style" } 
   // },
-  // { path: "/luts", component: LUTs, meta: { icon: "luts", title: "LUTs" } },
+  {
+    path: "/background",
+    component: Background,
+    meta: { icon: "background", title: "Background" },
+  },
+  { path: "/luts", component: LUTs, meta: { icon: "luts", title: "LUTs" } },
 ]
 
 const root = {
